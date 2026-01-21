@@ -45,7 +45,6 @@ export function initBricks(gameWidth, brickContainer) {
                     }
                 }
 
-            state.bricks[c][r] = { x: bX, y: bY, status: hp };
 
 
             const brickHtml = document.createElement('div');
@@ -62,6 +61,7 @@ export function initBricks(gameWidth, brickContainer) {
             brickHtml.style.width = BRICK_WIDTH + 'px';
             brickHtml.style.height = BRICK_HEIGHT + 'px';
 
+           state.bricks[c][r] = { x: bX, y: bY, status: hp,element:brickHtml};
 
             brickContainer.appendChild(brickHtml);
 
