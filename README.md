@@ -69,6 +69,9 @@ This project strictly adheres to the following constraints:
 - [x] **Memory Management:** Minimal object creation during the game loop to avoid Garbage Collection pauses.
 
 ### Code Snippet: The Game Loop
+### 💻 Code Snippet: The Game Loop
+The core engine that powers the 60 FPS experience:
+
 ```javascript
 function gameLoop(timestamp) {
     if (!lastTime) lastTime = timestamp;
