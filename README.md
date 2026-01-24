@@ -85,26 +85,36 @@ function gameLoop(timestamp) {
     lastTime = timestamp;
     window.requestAnimationFrame(gameLoop);
 }
-🕹️ ControlsKeyAction⬅️
- Left ArrowMove Goku Left➡️
- Right ArrowMove
- Goku RightSPACELaunch Spirit Bomb (Ball)
-P Pause / Resume Game
-R Restart Mission
-📦 How to Run
-LocallyIf you want to look at the code or run it on your machine:
-Clone the repository:
+Key,Action
+⬅️ Left Arrow,Move Goku Left
+➡️ Right Arrow,Move Goku Right
+SPACE,Launch Spirit Bomb (Ball)
+P,Pause / Resume Game
+R,Restart Mission
+
+📦 How to Run Locally
+If you want to look at the code or run it on your machine, follow these steps:
+
+1. Clone the repository:
 git clone [https://github.com/obenmbar/make-your-game-history.git](https://github.com/obenmbar/make-your-game-history.git)
 
-Navigate to the folder:
+2. Navigate to the folder:
 cd make-your-game-history
+3. Launch:
 
-Launch:
 Simply double-click index.html to open it in your browser.
 
-
 🏆 Status
+<br />
+
 <div align="center">
-👨‍💻 AuthorCreated by Othmane Benmbarek"
-This isn't even my final form!" - Frieza (and probably this code)
+
+👨‍💻 Author
+Created by Othmane Benmbarek
+
+"This isn't even my final form!"
+
+
+— Frieza (and probably this code)
+
 </div>
