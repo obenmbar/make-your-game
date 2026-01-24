@@ -16,13 +16,30 @@ This is a **Brick Breaker (Arkanoid)** style game set in the Dragon Ball Z unive
 
 Unlike modern web games that use `<canvas>` or WebGL, **this game uses standard HTML DIVs** for everything (Player, Ball, Bricks). The challenge was to achieve a buttery smooth **60 FPS** without "Jank" or stuttering, using only the CPU and the DOM tree.
 
-### 🌟 Key Features
+---
+
+## 📖 Story Mode: The Namek Saga
+
+Your journey follows the classic battles of Dragon Ball Z. Can you survive all three episodes?
+
+### **EPISODE 1: ARRIVAL**
+> *"Goku! You have arrived on Planet Namek. Frieza's soldiers are guarding the Dragon Balls."*
+* **Mission:** Defeat the soldiers to proceed!
+
+### **EPISODE 2: GINYU FORCE**
+> *"Good job! But Frieza has called the Ginyu Force."*
+* **Challenge:** These elite warriors have armor (Metal Bricks). Be careful!
+
+### **EPISODE 3: FINAL FORM**
+> *"You defeated the Ginyu Force! Now Frieza is angry and using his full power."*
+* **Boss Battle:** Survive the final battle against Frieza to save the universe!
+
+---
+
+## 🌟 Key Features
 * **🏎️ 60 FPS or Nothing:** Optimized using `requestAnimationFrame` for smooth rendering.
 * **🧱 Pure DOM Manipulation:** No canvas, no frameworks. Just raw JavaScript.
-* **🔥 DBZ Themed Levels:**
-    1.  **Arrival:** Defeat Frieza's Soldiers.
-    2.  **Ginyu Force:** Break the Metal Bricks (Armor).
-    3.  **Final Form:** Survive the battle against Frieza.
+* **🔥 DBZ Themed Levels:** Progressive difficulty with armored bricks.
 * **⏸️ Game State Management:** Pause, Restart, and Continue at any time.
 * **📊 Live HUD:** Real-time tracking of **Score**, **Lives**, and **Time**.
 
@@ -62,14 +79,6 @@ function gameLoop(timestamp) {
     lastTime = timestamp;
     window.requestAnimationFrame(gameLoop);
 }
-
-🕹️ Controls
-Key,Action
-⬅️ Left Arrow,Move Goku Left
-➡️ Right Arrow,Move Goku Right
-SPACE,Launch Spirit Bomb (Ball)
-P,Pause / Resume Game
-R,Restart Mission
-
-📦 How to Run
-git clone https://github.com/obenmbar/make-your-game.git
+🕹️ ControlsKeyAction⬅️ Left ArrowMove Goku Left➡️ Right ArrowMove Goku RightSPACELaunch Spirit Bomb (Ball)PPause / Resume GameRRestart Mission📦 How to RunClone the repository:Bashgit clone https://github.com/obenmbar/make-your-game-history.git
+Navigate to the folder:Bashcd make-your-game
+Launch:Simply double-click index.html to open it in your browser.🏆 Status👨‍💻 AuthorCreated by Othmane Benmbarek"This isn't even my final form!" - Frieza (and probably this code)
